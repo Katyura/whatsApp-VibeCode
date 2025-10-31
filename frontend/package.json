@@ -7,8 +7,6 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web",
-    "eject": "expo eject",
     "lint": "eslint src/",
     "test": "jest"
   },
@@ -32,7 +30,6 @@
     "react-redux": "^8.1.1",
     "redux-thunk": "^2.4.2",
     "axios": "^1.4.0",
-    "react-native-web-socket": "^1.0.0",
     "react-native-compressor": "^1.1.7",
     "react-native-video-compress": "^1.0.0",
     "react-native-zip-archive": "^1.0.0",
