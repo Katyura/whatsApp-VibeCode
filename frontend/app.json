@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "WhatsApp VibeCode",
+    "slug": "whatsapp-vibecode",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vibecode.whatsapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.vibecode.whatsapp"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow WhatsApp VibeCode to access your camera",
+          "microphonePermission": "Allow WhatsApp VibeCode to access your microphone"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow WhatsApp VibeCode to access your photos",
+          "cameraPermission": "Allow WhatsApp VibeCode to access your camera"
+      ]
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/notification-icon.png",
+          "color": "#25D366"
+        }
+      ]
+    ]
+  }
+}
