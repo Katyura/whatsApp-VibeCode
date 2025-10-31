@@ -1,0 +1,17 @@
+Django==4.2.7
+djangorestframework==3.14.0
+django-channels==4.0.0
+daphne==4.0.0
+channels-redis==4.1.0
+psycopg2-binary==2.9.9
+python-dotenv==1.0.0
+PyJWT==2.8.1
+requests==2.31.0
+twilio==8.10.0
+django-cors-headers==4.3.1
+celery==5.3.4
+redis==5.0.1
+pycryptodome==3.18.0
+firebase-admin==6.2.0
+python-dateutil==2.8.2
+pytz==2023.3
